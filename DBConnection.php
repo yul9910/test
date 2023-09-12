@@ -16,7 +16,7 @@ $database = "dbtest";
 $db = mysqli_connect($hostname, $username, $password, $database);
 
 if($db){
-    echo "connect : 성공!<br>";
+    echo "connect : 성공!!<br>";
 }
 else{
     echo "disconnect : 실패<br>";
