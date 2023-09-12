@@ -8,10 +8,15 @@
 <?php
 echo "MySql 연결 테스트<br>";
 
-$db = mysqli_connect("test.devs", "root", "1234", "dbtest");
+$hostname = "test.devs";
+$username = "root";
+$password = "1234";
+$database = "dbtest";
+
+$db = mysqli_connect($hostname, $username, $password, $database);
 
 if($db){
-    echo "connect : 성공<br>";
+    echo "connect : 성공!<br>";
 }
 else{
     echo "disconnect : 실패<br>";
