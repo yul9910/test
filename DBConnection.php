@@ -6,7 +6,7 @@
 <body>
 
 <?php
-echo "MySql 연결 테스트<br>";
+echo "MySql 연결 테스트 중입니다<br>";
 
 $hostname = "test.devs";
 $username = "root";
