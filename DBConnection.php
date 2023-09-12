@@ -19,7 +19,7 @@ if($db){
     echo "connect : 성공!!<br>";
 }
 else{
-    echo "disconnect : 실패<br>";
+    echo "disconnect : 실패!!!!!<br>";
 }
 
 ?>
